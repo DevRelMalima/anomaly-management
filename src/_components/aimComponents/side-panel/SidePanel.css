@@ -1,0 +1,81 @@
+@media screen and (max-width: 960px) {
+  .sidePanel_dash.sidePanel_dash {
+    width: 0;
+    visibility: hidden;
+  }
+  .sidePanel_dash.mobile {
+    width: 27%;
+    visibility: visible;
+  }
+  .sidePanel_dash.sidePanel_dash .sidePanel_links {
+    display: none;
+  }
+  .sidePanel_dash.sidePanel_dash button {
+    display: none;
+  }
+  .sidePanel_dash.mobile button {
+    display: inline-flex;
+  }
+  .sidePanel_dash.mobile .sidePanel_links {
+    display: inline-flex;
+  }
+}
+
+.sidePanel_dash {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  position: fixed;
+  top: 65px;
+  background-color: #fff;
+  height: 100%;
+  width: auto;
+  box-shadow: #a6a5a5 1px 10px 10px;
+  z-index: 3000;
+  transition: all 0.2s;
+}
+.sidePanel_links:hover svg {
+  height: 22px;
+}
+.sidePanel_links:hover {
+  background-color: #b1d0fe;
+  padding: 7px 5px;
+}
+.sidePanel_links {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 15px;
+  transition: all 0.2s;
+}
+.sidePanel_links svg {
+  height: 20px;
+}
+.sidePanel_links:link,
+.sidePanel_links:visited,
+.sidePanel_links:active {
+  color: #000;
+}
+
+.sidePanel_dash .sidePanel_btn:hover,
+.MuiToolbar-root .sidePanel_btn:hover {
+  height: 35px;
+  background-color: #3571fdcc;
+}
+.sidePanel_dash .sidePanel_btn,
+.MuiToolbar-root .sidePanel_btn {
+  position: relative;
+  width: 100%;
+  font-size: 12px;
+  bottom: -170px;
+  color: white;
+  background-color: #3571fd;
+  transition: all 0.4s;
+}
+
+.MuiToolbar-root .sidePanel_btn {
+  width: 40px;
+  bottom: auto;
+  margin-left: 10px;
+}

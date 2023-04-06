@@ -1,0 +1,75 @@
+.matrixContainer {
+  width: 98%;
+  height: auto;
+  padding: 15px;
+  background-color: #ffffff;
+  box-shadow: #969696 1px 1px 10px;
+  border-radius: 20px;
+  margin-left: 1.1%;
+  padding-bottom: 35px;
+  margin-bottom: 15px;
+}
+
+.matrixTable {
+  width: 90%;
+  margin-left: 5%;
+}
+.matrixHeader {
+  text-align: center;
+  color: #494949;
+}
+.matrixHead {
+  text-align: center;
+  background-color: rgb(146, 172, 224);
+  color: #fff;
+}
+
+.bT {
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+}
+.matrixContainer td {
+  padding: 10px;
+  text-align: center;
+}
+
+.smlMatrix .bT {
+  writing-mode: horizontal-tb;
+  transform: rotate(0);
+}
+.smlMatrix{
+  padding: 10px;  
+  box-shadow: none;
+  border-radius: 0;
+}
+.smlMatrix td{
+  padding: 4px;
+  width: 12%;
+}
+.smlMatrix .matrixTable{
+  margin-left: 0;
+}
+
+.data.IA {
+  background-color: rgb(121, 196, 251);
+}
+.data.P5 {
+  background-color: rgb(121, 251, 169);
+}
+.data.P4 {
+  background-color: rgb(251, 234, 121);
+}
+.data.P3 {
+  background-color: rgb(251, 195, 121);
+}
+.data.P2 {
+  background-color: rgb(204, 91, 91);
+}
+.data.P1 {
+  background-color: rgb(163, 14, 14);
+  color: #fff;
+}
+.data.P0 {
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+}
