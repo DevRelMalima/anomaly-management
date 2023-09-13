@@ -277,7 +277,7 @@ const AnomalyForm = (props) => {
     setNewAnomaly({ ...emptyAnomaly });
     //props.enqueueSnackbar('New anomaly saved', { variant:'success'});
     props.history.push("/anomalies/all_anomalies");
-    window.location.reload(true)
+    // window.location.reload(true)
   }
 
   function updateAnomaly() {

@@ -13,7 +13,8 @@ function createItem(action, url, payload, successMessage, errorMessage)
                 dispatch({type:'ENQUEUE_SNACKBAR', notification:{message: successMessage,
                 options: {
                     key: new Date().getTime() + Math.random(),
-                    variant: 'success'}}})              
+                    variant: 'success'}}})    
+                    // window.location.reload(true)          
             })
             .catch((ex) => {    
                 console.error(ex);

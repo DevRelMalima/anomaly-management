@@ -1857,8 +1857,9 @@ var AnomalyForm_AnomalyForm = function AnomalyForm(props) {
     setNewAnomaly(AnomalyForm_objectSpread({}, emptyAnomaly));
     //props.enqueueSnackbar('New anomaly saved', { variant:'success'});
     props.history.push("/anomalies/all_anomalies");
-    window.location.reload(true);
+    // window.location.reload(true)
   }
+
   function updateAnomaly() {
     //let selectedPlatform =  props.platforms.find(p => p.id == newAnomaly.platform)?.name || "--"
     props.updateAnomaly(AnomalyForm_objectSpread({}, newAnomaly));
