@@ -286,7 +286,7 @@ const ExcelDataImport = (props) => {
       trackPromise(
         axios
           .post(
-            "http://localhost:56941/api/anomalies/import/" +
+            " /api/anomalies/import/" +
               fileUploadId,
             form,
             config

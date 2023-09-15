@@ -1,4 +1,4 @@
-/*export const BaseURL = "http://localhost:56941";
+/*export const BaseURL = " ";
 export const CREATE_NEW_USER_URL = BaseURL+"/users/register";
 export const USERS_URL = BaseURL+"/users";
 export const AUTHENTICATE_USER_URL = USERS_URL+"/authenticate";

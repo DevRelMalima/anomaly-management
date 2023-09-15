@@ -85,7 +85,7 @@ function deleteItem(action, url, payload, successMessage, errorMessage, appendId
     }
 }
 
-const baseURL = BaseURL;// "http://localhost:56941/api";
+const baseURL = BaseURL;// " /api";
 
 // Action definitions
 // Platform
@@ -258,7 +258,7 @@ export const attachFilesToAnomaly = (task) => {
     return (dispatch, getState, {axios, enqueueSnackbar}) => {
         //Make async call to backend
         console.log("With attached files",task);
-        /*axios.put('http://localhost:56941/api/anomaly/attachfiles/'+anomaly.id,anomaly.attachedFiles)
+        /*axios.put(' /api/anomaly/attachfiles/'+anomaly.id,anomaly.attachedFiles)
         .then((result) => {                            
             dispatch({type:'ENQUEUE_SNACKBAR', notification:{message: 'Files attached to anomamy: '+anomaly.code+'.',
             options: {

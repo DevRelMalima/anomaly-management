@@ -25,7 +25,7 @@ async function fetchData (user, dispatch ) {
 
       //////////////////////////
 
-    // axios.get('http://localhost:56941/api/projects')
+    // axios.get(' /api/projects')
     axios.get(URLs.PROJECTS_URL)
          .then((result) => {
            //console.warn("result", result.data);
@@ -37,7 +37,7 @@ async function fetchData (user, dispatch ) {
              console.error(ex);
          });
 
-     axios.get('http://localhost:56941/api/taskGroup')
+     axios.get(' /api/taskGroup')
          .then((result) => {
            console.warn("taskGroups", result.data);
            enqueueSnackbar('Successfully fetched the data.')
@@ -48,7 +48,7 @@ async function fetchData (user, dispatch ) {
              console.error(ex);
          });
          
-     axios.get('http://localhost:56941/api/task')
+     axios.get(' /api/task')
          .then((result) => {
            console.warn("taskGroups", result.data);
            enqueueSnackbar('Successfully fetched the data.')
@@ -60,7 +60,7 @@ async function fetchData (user, dispatch ) {
          });
      
      
-     axios.get('http://localhost:56941/users')
+     axios.get(' /users')
          .then((result) => {
            
            enqueueSnackbar('Successfully fetched User data.')
@@ -71,7 +71,7 @@ async function fetchData (user, dispatch ) {
              console.error(ex);
          });
          
-     axios.get('http://localhost:56941/api/files')
+     axios.get(' /api/files')
          .then((result) => {
            
            enqueueSnackbar('Successfully fetched User files.')
@@ -84,7 +84,7 @@ async function fetchData (user, dispatch ) {
          });
     
      
-     axios.get('http://localhost:56941/api/folders')
+     axios.get(' /api/folders')
          .then((result) => {
            
            enqueueSnackbar('Successfully fetched User folders.')

@@ -404,7 +404,7 @@ function FilesView(props) {
     console.warn("img data ", selectedFiles)
 
     /*return axios({
-      url:'http://localhost:56941/api/files/upload',
+      url:' /api/files/upload',
       method:"POST",
       headers:{
         'Content-Type':'multipart/form-data'

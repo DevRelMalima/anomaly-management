@@ -112,7 +112,7 @@ const CustomAppBar = (props) => {
         <Avatar
           alt="Remy Sharp"
           src={
-            "http://localhost:56941/users/profilepicture/" +
+            " /users/profilepicture/" +
             props.currentUser.id +
             "/" +
             props.currentUser.profilePictureId

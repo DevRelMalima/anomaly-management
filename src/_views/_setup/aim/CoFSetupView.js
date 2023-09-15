@@ -144,7 +144,7 @@ function CoFSetupView(props)
         //if(isNullOrUndefined(props.projects))
         //  return;
 
-      axios.get('http://localhost:56941/api/projects')
+      axios.get(' /api/projects')
             .then((result) => {
               console.warn("result", result.data);
               props.fetchProjects(result.data);

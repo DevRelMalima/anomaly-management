@@ -479,7 +479,7 @@ class App extends React.Component {
     }
 
     /*const connection1 = new SignalR.HubConnectionBuilder()
-          .withUrl("http://localhost:56941/connectionstate",  { accessTokenFactory: () => currentUser.token })
+          .withUrl(" /connectionstate",  { accessTokenFactory: () => currentUser.token })
           .configureLogging(SignalR.LogLevel.Information)
           .build();
 

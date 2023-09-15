@@ -350,7 +350,7 @@ function FilesDialogView(props)
         //if(isNullOrUndefined(props.projects))
         //  return;
 
-      axios.get('http://localhost:56941/api/projects')
+      axios.get(' /api/projects')
             .then((result) => {
               console.warn("result", result.data);
               props.fetchProjects(result.data);
@@ -393,7 +393,7 @@ function FilesDialogView(props)
 
       form.append('file', element);
         
-      axios.post('http://localhost:56941/api/files/upload', form, {headers:{'Access-Control-Allow-Origin': '*'}})
+      axios.post(' /api/files/upload', form, {headers:{'Access-Control-Allow-Origin': '*'}})
                 .then((result) => {
                   console.warn("result", result)
                   
@@ -412,7 +412,7 @@ function FilesDialogView(props)
             }
 
         /*return axios({
-          url:'http://localhost:56941/api/files/upload',
+          url:' /api/files/upload',
           method:"POST",
           headers:{
             'Content-Type':'multipart/form-data'

@@ -2159,7 +2159,7 @@ var ExcelDataImport_ExcelDataImport = function ExcelDataImport(props) {
           Authorization: "Bearer ".concat(currentUser.token)
         }
       };
-      Object(lib["trackPromise"])(axios_default.a.post("http://localhost:56941/api/anomalies/import/" + fileUploadId, form, config).then(function (result) {
+      Object(lib["trackPromise"])(axios_default.a.post(" /api/anomalies/import/" + fileUploadId, form, config).then(function (result) {
         console.warn("import_result", result);
         setSData(result.data[0].data);
         setSpreadsheets(result.data);

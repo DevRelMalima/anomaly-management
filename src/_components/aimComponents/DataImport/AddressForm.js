@@ -257,7 +257,7 @@ const AddressForm = (props) => {
 
       };
         
-      axios.post('http://localhost:56941/api/anomalies/import/'+fileUploadId, form,config)
+      axios.post(' /api/anomalies/import/'+fileUploadId, form,config)
                 .then((result) => {
                   console.warn("import_result", result)
                   setSData(result.data[0].data)
