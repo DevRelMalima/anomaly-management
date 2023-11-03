@@ -80,9 +80,14 @@ function login(
 
       return null;
     })
-    .catch((ex) => {
-      console.warn("Login Error", ex);
-      return null;
+    .catch((error) => {
+      // Handle error response
+      if (error.response) {
+        console.error(error.response.data.message);
+      } else {
+        console.error("Network Error:", error.message);
+      }
+      return error.response.data.message;
     });
 }
 

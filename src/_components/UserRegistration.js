@@ -202,11 +202,11 @@ function UserRegistration(props) {
               .catch((e) => {
                 setSubmitting(false);
                 setStatus(e);
-                console.log(e);
+                console.log(e.response.data.message);
                 props.dispatch({
                   type: "ENQUEUE_SNACKBAR",
                   notification: {
-                    message: "Unable to create account",
+                    message: e.response.data.message,
                     options: {
                       key: new Date().getTime() + Math.random(),
                       variant: "error",

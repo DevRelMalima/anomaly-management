@@ -163,7 +163,7 @@ class UserLogin1 extends React.Component {
                     // const { from } = this.props.location.state || { from: { pathname: "/dashboard" } };
                     // console.log("loggedIn", userInfo)
 
-                    if (user) {
+                    if (user.token) {
                       //let user = {...userInfo.user, token:userInfo.token}
                       console.log("loggedIn", user);
                       this.props.dispatch({
@@ -188,10 +188,11 @@ class UserLogin1 extends React.Component {
                       //authenticationService.currentUserValue = user;
                       setTimeout(window.location.reload(), 3000);
                     } else {
+                      console.log(user);
                       this.props.dispatch({
                         type: "ENQUEUE_SNACKBAR",
                         notification: {
-                          message: "Invalid Username/Password.",
+                          message: user,
                           options: {
                             key: new Date().getTime() + Math.random(),
                             variant: "error",

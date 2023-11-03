@@ -102,7 +102,7 @@ export const CustomForm = (props) => {
 
   return (
     <form onSubmit={handleSubmit} className={style.form}>
-      <div>{errors.username}</div>
+      {/* <div>{errors.username}</div> */}
       <div className="form-group">
         <FormControlLabel
           checked={identifierVisibilityState}
