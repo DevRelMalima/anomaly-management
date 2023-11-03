@@ -1,5 +1,5 @@
 import React, { Fragment, Suspense, lazy } from "react";
-import { HashRouter, Route, Link, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import { trackPromise } from "react-promise-tracker";
 import { history } from "@/_helpers";
 import { authenticationService } from "@/_services";
@@ -8,20 +8,15 @@ import ProfileView from "@/_components/ProfileView";
 import ModulesView from "@/_components/ModulesView";
 import FileManagerView from "@/_components/FileManagerView";
 import NotificationView from "@/_components/NotificationView";
-import SetupView from "@/_components/SetupView";
 import Notifier from "@/_components/Notifier";
 import UserLogin from "@/_components/UserLogin";
 import PrivateRoute from "@/_components/PrivateRoute";
 import UserRegistration from "@/_components/UserRegistration";
 //import {fetchProjects} from '../_actions/projectActions'
-import * as URLs from "../common/constants/URLs";
 import { connect } from "react-redux";
 import axios from "axios";
 import { withSnackbar } from "notistack";
-import Logo from "@/_images/grasp_logo.inline.svg";
 import { bindActionCreators } from "redux";
-import Typography from "@material-ui/core/Typography";
-import Button from "@material-ui/core/Button";
 import {
   enqueueSnackbar,
   closeSnackbar,
@@ -33,6 +28,7 @@ import { BaseURL } from "./../constants/URLs/urls";
 const AnomaliesModule = lazy(() =>
   import("../_modules/AnomaliesModule")
 );
+const SetupView = lazy(() => import("../_components/SetupView"));
 const ActivitiesModule = lazy(() =>
   import("../_modules/ActivitiesModule")
 );
@@ -55,28 +51,6 @@ class App extends React.Component {
         currentUser: authenticationService.currentUserValue,
       });
   }
-
-  /*handleClick = () => {
-
-        // NOTE:
-        // if you want to be able to dispatch a `closeSnackbar` action later on, 
-        // you SHOULD pass your own `key` in the options. `key` can be any sequence
-        // of number or characters, but it has to be unique to a given snackbar. 
-        props.enqueueSnackbar({
-            message: 'Failed fetching data.',
-            options: {
-                key: new Date().getTime() + Math.random(),
-                variant: 'warning',
-                action: key => (
-                    <Button onClick={() => props.closeSnackbar(key)}>dissmiss me</Button>
-                ),
-            },
-        });
-    };*/
-
-  /*handleDimissAll = () => {
-        props.closeSnackbar();
-    };*/
 
   componentWillMount() {
     authenticationService.currentUser.subscribe((x) =>
@@ -260,74 +234,6 @@ class App extends React.Component {
             if (result.data.length > 0)
               this.props.dispatch({
                 type: "FETCH_PLATFORMS",
-                data: result.data,
-              });
-          })
-          .catch((ex) => {
-            console.error(ex);
-          })
-      );
-
-      /*-- CoFs --*/
-      trackPromise(
-        axios
-          .get(BaseURL + "/api/cof")
-          .then((result) => {
-            enqueueSnackbar("Fetched CoFs.");
-            if (result.data.length > 0)
-              this.props.dispatch({
-                type: "FETCH_COFS",
-                data: result.data,
-              });
-          })
-          .catch((ex) => {
-            console.error(ex);
-          })
-      );
-
-      /*-- PoFs --*/
-      trackPromise(
-        axios
-          .get(BaseURL + "/api/lof")
-          .then((result) => {
-            enqueueSnackbar("Fetched LoFs.");
-            if (result.data.length > 0)
-              this.props.dispatch({
-                type: "FETCH_LOFS",
-                data: result.data,
-              });
-          })
-          .catch((ex) => {
-            console.error(ex);
-          })
-      );
-
-      /*-- SoFs --*/
-      trackPromise(
-        axios
-          .get(BaseURL + "/api/sof")
-          .then((result) => {
-            enqueueSnackbar("Fetched SoFs.");
-            if (result.data.length > 0)
-              this.props.dispatch({
-                type: "FETCH_SOFS",
-                data: result.data,
-              });
-          })
-          .catch((ex) => {
-            console.error(ex);
-          })
-      );
-
-      /*-- Priorities --*/
-      trackPromise(
-        axios
-          .get(BaseURL + "/api/priority")
-          .then((result) => {
-            enqueueSnackbar("Fetched Priority.");
-            if (result.data.length > 0)
-              this.props.dispatch({
-                type: "FETCH_PRIORITIES",
                 data: result.data,
               });
           })
@@ -526,7 +432,9 @@ class App extends React.Component {
       <Fragment>
         <HashRouter history={history}>
           <Suspense fallback={Loader}>
-            <div style={{ boxSizing: "border-box" }}>
+            <div
+              style={{ boxSizing: "border-box", minWidth: "380px" }}
+            >
               <div className="jumbotron">
                 <div className="container">
                   <div className="row">

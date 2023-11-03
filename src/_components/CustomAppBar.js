@@ -171,9 +171,9 @@ const CustomAppBar = (props) => {
           <MenuIcon />
         </IconButton>
 
-        <div className={classes.toolbarTitle}>
+        <a href="/" className={classes.toolbarTitle}>
           <Logo />
-        </div>
+        </a>
 
         <IconButton
           color="inherit"

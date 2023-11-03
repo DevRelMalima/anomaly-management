@@ -1,15 +1,6 @@
 import React, {useEffect} from 'react'
 import Grid from '@material-ui/core/Grid';
-import { fade, makeStyles, withStyles } from '@material-ui/core/styles';
-import Card from '@material-ui/core/Card';
-import CardActions from '@material-ui/core/CardActions';
-import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
-import CssBaseline from '@material-ui/core/CssBaseline';
 import Button from '@material-ui/core/Button';
-import CameraIcon from '@material-ui/icons/PhotoCamera';
-import Container from '@material-ui/core/Container';
-import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import TextField from '@material-ui/core/TextField';
 import Dialog from '@material-ui/core/Dialog';
@@ -21,24 +12,11 @@ import { red } from '@material-ui/core/colors';
 import Icon from '@material-ui/core/Icon';
 import {connect} from 'react-redux';
 import {createAnomalyClass, updateAnomalyClass, deleteAnomalyClass} from '../../../_actions/anomalyActions'
-import axios from 'axios';
-import isNullOrUndefined from 'util';
-import {Link} from 'react-router-dom';
 import { withSnackbar } from 'notistack';
 import DeleteIcon from '@material-ui/icons/DeleteOutlined';
 import EditIcon from '@material-ui/icons/EditOutlined';
 import ManageIcon from '@material-ui/icons/SettingsOutlined';
 import AddIcon from '@material-ui/icons/AddOutlined';
-import { green, purple } from '@material-ui/core/colors';
-import Avatar from '@material-ui/core/Avatar';
-import Box from '@material-ui/core/Box';
-import List from '@material-ui/core/List';
-import ListItem from '@material-ui/core/ListItem';
-import ListItemAvatar from '@material-ui/core/ListItemAvatar';
-import ListItemIcon from '@material-ui/core/ListItemIcon';
-import ListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction';
-import ListItemText from '@material-ui/core/ListItemText';
-import FolderIcon from '@material-ui/icons/Folder';
 import IconButton from '@material-ui/core/IconButton';
 import Paper from '@material-ui/core/Paper';
 import Moment from 'react-moment'

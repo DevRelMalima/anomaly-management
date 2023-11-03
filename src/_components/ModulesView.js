@@ -49,6 +49,7 @@ import NotificationIcon from "@/_images/icons/notification_icon.inline.svg";
 import AnomalyDashboard from "./aimComponents/AnomalyDashboardView";
 import SidePanel from "./aimComponents/side-panel/SidePanel";
 import RiskMatrix from "./aimComponents/risk-matrix/RiskMatrix";
+import "./ModulesView.css";
 
 const drawerWidth = 240;
 
@@ -259,7 +260,7 @@ function ModulesView(props) {
         handleDrawerToggle={handleDrawerToggle}
       />
 
-      <main className={classes.content}>
+      <main className={classes.content + " mainModulContainer"}>
         <></>
         <div
           style={{

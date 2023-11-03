@@ -27,7 +27,8 @@ import { BaseURL } from "../../constants/URLs/urls";
 const AnomaliesReportView = (props) => {
   const [anoms, setAnoms] = useState(props.anomalies);
   const [users, setUsers] = useState(props.users);
-  const [filterConstraint, setFilterConstraint] = useState("");
+  const [filterConstraint, setFilterConstraint] = useState("open");
+
   const handleFieldChange2 = (event) => {
     event.persist();
     // handleChange(event);
@@ -181,7 +182,7 @@ const AnomaliesReportView = (props) => {
     }
   };
 
-  const print = () => {
+  const print = async () => {
     var imgWidth = 210;
     var pageHeight = 295;
     const pages = Array.from(
@@ -231,7 +232,7 @@ const AnomaliesReportView = (props) => {
             heightLeft -= pageHeight;
           }
       });
-      pdf.save("download.pdf");
+      pdf.save("report.pdf");
     });
   };
 
@@ -242,11 +243,14 @@ const AnomaliesReportView = (props) => {
         <Button
           size="medium"
           color="primary"
-          onClick={() => print()}
+          onClick={async () => await print()}
           variant="outlined"
         >
           Print
         </Button>
+        <span style={{ color: "red", marginLeft: "10px" }}>
+          Print only on desktop view
+        </span>
       </div>
       <ViewTitle>Filter</ViewTitle>
       <div className="filterBoxes">

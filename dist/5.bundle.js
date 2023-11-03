@@ -1,6 +1,6 @@
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([[5],{
 
-/***/ 1132:
+/***/ 1133:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -10,7 +10,7 @@ var react = __webpack_require__(0);
 var react_default = /*#__PURE__*/__webpack_require__.n(react);
 
 // EXTERNAL MODULE: ./node_modules/react-redux/es/index.js + 22 modules
-var es = __webpack_require__(11);
+var es = __webpack_require__(17);
 
 // EXTERNAL MODULE: ./src/common/customStyles.js
 var customStyles = __webpack_require__(1050);
@@ -19,73 +19,73 @@ var customStyles = __webpack_require__(1050);
 var clsx_m = __webpack_require__(3);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Box/Box.js + 16 modules
-var Box = __webpack_require__(1033);
+var Box = __webpack_require__(1037);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Container/Container.js
-var Container = __webpack_require__(1032);
+var Container = __webpack_require__(1036);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Grid/Grid.js
-var Grid = __webpack_require__(228);
+var Grid = __webpack_require__(16);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/withStyles.js
 var withStyles = __webpack_require__(7);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Table/Table.js
-var Table = __webpack_require__(1471);
+var Table = __webpack_require__(1476);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/TableBody/TableBody.js
-var TableBody = __webpack_require__(1474);
+var TableBody = __webpack_require__(1479);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/TableCell/TableCell.js
-var TableCell = __webpack_require__(1469);
+var TableCell = __webpack_require__(1474);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/TableHead/TableHead.js
-var TableHead = __webpack_require__(1472);
+var TableHead = __webpack_require__(1477);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/TableRow/TableRow.js
-var TableRow = __webpack_require__(1473);
+var TableRow = __webpack_require__(1478);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Paper/Paper.js
-var Paper = __webpack_require__(156);
+var Paper = __webpack_require__(102);
 
 // EXTERNAL MODULE: ./node_modules/countries-List/dist/index.es5.min.js
-var index_es5_min = __webpack_require__(1069);
+var index_es5_min = __webpack_require__(1070);
 
 // EXTERNAL MODULE: ./node_modules/react-router-dom/esm/react-router-dom.js
-var react_router_dom = __webpack_require__(23);
+var react_router_dom = __webpack_require__(36);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/TableContainer/TableContainer.js
-var TableContainer = __webpack_require__(1470);
+var TableContainer = __webpack_require__(1475);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Button/Button.js
-var Button = __webpack_require__(299);
+var Button = __webpack_require__(101);
 
 // EXTERNAL MODULE: ./node_modules/react-moment/dist/index.js
-var dist = __webpack_require__(84);
+var dist = __webpack_require__(297);
 var dist_default = /*#__PURE__*/__webpack_require__.n(dist);
 
 // EXTERNAL MODULE: ./src/common/customButton.js
-var customButton = __webpack_require__(1072);
+var customButton = __webpack_require__(1073);
 
 // EXTERNAL MODULE: ./src/_services/index.js + 25 modules
-var _services = __webpack_require__(16);
+var _services = __webpack_require__(15);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/icons/ArrowDownward.js
-var ArrowDownward = __webpack_require__(1077);
+var ArrowDownward = __webpack_require__(1078);
 var ArrowDownward_default = /*#__PURE__*/__webpack_require__.n(ArrowDownward);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/icons/Search.js
-var Search = __webpack_require__(36);
+var Search = __webpack_require__(233);
 var Search_default = /*#__PURE__*/__webpack_require__.n(Search);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/InputBase/InputBase.js + 1 modules
-var InputBase = __webpack_require__(593);
+var InputBase = __webpack_require__(606);
 
 // EXTERNAL MODULE: ./src/_utilities/CommonStyles.js
-var CommonStyles = __webpack_require__(15);
+var CommonStyles = __webpack_require__(53);
 
 // EXTERNAL MODULE: ./src/utility/filesUtility.js
-var filesUtility = __webpack_require__(1068);
+var filesUtility = __webpack_require__(1069);
 
 // CONCATENATED MODULE: ./src/_components/aimComponents/NewAnomaliesTable.js
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
@@ -422,13 +422,13 @@ var mapStateToProps = function mapStateToProps(state) {
 // export default TodoList;
 /* harmony default export */ var aimComponents_NewAnomaliesTable = (Object(es["b" /* connect */])(mapStateToProps)(NewAnomaliesTable_NewAnomaliesTable));
 // EXTERNAL MODULE: ./src/_components/aimComponents/ViewTitle.js
-var ViewTitle = __webpack_require__(1052);
+var ViewTitle = __webpack_require__(1053);
 
 // EXTERNAL MODULE: ./src/common/sideMenuComponents.js
-var sideMenuComponents = __webpack_require__(157);
+var sideMenuComponents = __webpack_require__(180);
 
 // EXTERNAL MODULE: ./node_modules/notistack/build/index.js
-var build = __webpack_require__(22);
+var build = __webpack_require__(76);
 
 // CONCATENATED MODULE: ./src/_views/_aimViews/NewAnomaliesView.js
 
@@ -476,18 +476,18 @@ var NewAnomaliesView_mapStateToProps = function mapStateToProps(state) {
 
 /***/ }),
 
-/***/ 1203:
+/***/ 1204:
 /***/ (function(module, exports) {
 
 module.exports = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAM/SURBVHgB7ZrLaxNBHMd/k0cTE5M+bGxrUltpi+JNqzbnGv8BUY/qSbAWamkSfCCKiGgTxZTaKgVPCiKIonhqemkPFaQHBaVVIS1tehI8SZ7N+Buxx272kUyH7Hwum8Ms2c93f7/J7GQBJBKJRCIxLQQM0nl/IVj89fs1ftwD4pGnlJ5Mx0982GqABQzQ+eBj0N7mnQVB5UuUnFKSZ9hAJ13xhV6LzzNrcdbZQTwKhFhOr8f635cbqCuArsRCr7XRO0+ElYczq6P979QM1hxA56PPfZYm9xxx2EWU3yAUzq7GQm/VnqApgB6UJ80oXyemPE7p51D+pZaTVAdwYOpLb8npEleewvm1WOgFaETVr0DXBMrvcM0LWvYUKL24Fg89Bx2UrYCeZ1/7LA7nHNhtQspTQgbSsdAU6ESxArqnvgWJwPI42w+mR48/AQMoVoC13v0GD2XlsfcMryi3i3JzQCvUOIaWwrWADABMjgwATI4MAEyO6QPQvSOkD0r84ZlxXMIOAA/wi5zdbfDzwsEtV6ocK4CSQDg5xlPegfLWBrfiMG4VEIjM3MOrGgQe4P12qpBncKmA9nDyLh6iwAMN8oyqV4A/On2HUrgKPGA9v68F5XeqPqWqAfijydu4SXkdeMB6nsnv8mg6rWotEAjP3ET5G8CD//I2jfKMqgTQHk2OAKG3gAfY844Ony55RsUD8Eemh7Hn48ADlK/r2A02Xz3opaJzQCCSHMLDQ+ADdez1ESPyjIoGgHuDCTwkgBP7X61QMIh8GAKTIwMAkyMDAJMjAwCTY4YAFBdLhleCpWyeLYHTsA2vyv359EN5AD4l2lrrnyoNMRQAk88uMncB3xNk8m1Nk8vDhxT3IHW3QClXhNz3NNBCEYQDnxLtLY1j5eQZuiqglC9CdmkNaE5U+Yax1MjhITXDNQdA84V/ZU9zBRAOLHt7s/dxauSIKnmGpgAo3vmMyPI+z0QqclTT1rvqOYAWNyCzJK68rcmdSEWOXQKNqKoAWmDy2PM46wsHYS9zuSaWrwQvgw7KBkCLbMLDO58RVL7BM7lyrU/znd9EsQVY2WcX16EkojxentXrGkd5Pv81SiQSiURSe/wFv3rqw425nDoAAAAASUVORK5CYII="
 
 /***/ }),
 
-/***/ 1204:
+/***/ 1205:
 /***/ (function(module, exports, __webpack_require__) {
 
-var api = __webpack_require__(358);
-            var content = __webpack_require__(1205);
+var api = __webpack_require__(302);
+            var content = __webpack_require__(1206);
 
             content = content.__esModule ? content.default : content;
 
@@ -510,21 +510,21 @@ module.exports = exported;
 
 /***/ }),
 
-/***/ 1205:
+/***/ 1206:
 /***/ (function(module, exports, __webpack_require__) {
 
 // Imports
-var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(359);
+var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(303);
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".anomalyPage {\r\n  border: 4px solid #ee9a2d;\r\n}\r\n.filterBoxes{\r\n  width: 100%;\r\n  height: 50px;\r\n  position: relative;\r\n  display: flex;\r\n  justify-content: space-around;\r\n}\r\n\r\n.pdfContainer {\r\n  width: 97%;\r\n}\r\n.centerContent {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n.grid-container > .grid-item {\r\n  border: 1px solid #08153269;\r\n  font-size: 12px;\r\n}\r\n.grid-container > .grid-item:nth-child(2n + 6) {\r\n  background-color: #c7c7c7;\r\n}\r\n\r\n.grid-container {\r\n  display: grid;\r\n  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;\r\n  grid-template-rows: 40px 20px auto 20px auto 20px auto 20px auto 20px auto 20px auto 20px auto 20px auto;\r\n  grid-column-gap: -5px;\r\n  grid-row-gap: -5px;\r\n}\r\n.reporthead {\r\n  display: grid;\r\n  grid-template-columns: 1fr 5fr 1fr;\r\n  grid-template-rows: 1fr;\r\n}\r\n.reporthead span {\r\n  justify-self: center;\r\n  font-weight: 700;\r\n  align-self: center;\r\n}\r\n.reporthead img {\r\n  height: 30px;\r\n  align-self: center;\r\n}\r\n.smallHeads {\r\n  font-weight: 700;\r\n  text-align: center;\r\n}\r\n.MuiTableCell-root.MuiTableCell-root {\r\n  padding: 16px 11px;\r\n}\r\n.reportCont {\r\n  display: grid;\r\n  grid-template-columns: 4fr 2fr 2fr;\r\n  grid-template-rows: 1fr;\r\n  margin: 10px 5px;\r\n  margin-bottom: 0;\r\n}\r\n.bigVal {\r\n  grid-template-columns: 2fr 1fr 5fr;\r\n}\r\n.grid-item.reportAttached{\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  justify-content: center;\r\n  padding: 10px 0;\r\n}\r\n.grid-item.reportAttached img{ \r\n  min-height: 173px;\r\n  max-height: 250px;\r\n  max-width: 100%;\r\n  margin-right: 10px;\r\n}\r\n.grid-container > .grid-item:nth-child(1) {\r\n  grid-column: 1/7;\r\n  grid-row: 2/1;\r\n  font-size: 16px;\r\n}\r\n\r\n.grid-container > .grid-item:nth-child(2) {\r\n  grid-column: 1/4;\r\n  grid-row: 2/3;\r\n  background-color: #c7c7c7;\r\n}\r\n\r\n.grid-container > .grid-item:nth-child(3) {\r\n  grid-column: 4/7;\r\n  grid-row: 2/3;\r\n  background-color: #c7c7c7;\r\n}\r\n\r\n.grid-container > .grid-item:nth-child(4) {\r\n  grid-column: 1/4;\r\n  grid-row: 3/3;\r\n}\r\n\r\n.grid-container > .grid-item:nth-child(5) {\r\n  grid-column: 4/7;\r\n  grid-row: 3/6;\r\n}\r\n.grid-container > .grid-item:nth-child(6) {\r\n  grid-column: 1/4;\r\n  grid-row: 4/4;\r\n}\r\n.grid-container > .grid-item:nth-child(7) {\r\n  grid-column: 1/4;\r\n  grid-row: 5/6;\r\n}\r\n.grid-container > .grid-item:nth-child(8) {\r\n  grid-column: 1/7;\r\n  grid-row: 6/6;\r\n}\r\n.grid-container > .grid-item:nth-child(9) {\r\n  grid-column: 1/7;\r\n  grid-row: 7/7;\r\n}\r\n.grid-container > .grid-item:nth-child(10) {\r\n  grid-column: 1/7;\r\n  grid-row: 8/8;\r\n}\r\n.grid-container > .grid-item:nth-child(11) {\r\n  grid-column: 1/7;\r\n  grid-row: 9/9;\r\n}\r\n.grid-container > .grid-item:nth-child(12) {\r\n  grid-column: 1/7;\r\n  grid-row: 10/10;\r\n}\r\n.grid-container > .grid-item:nth-child(13) {\r\n  grid-column: 1/7;\r\n  grid-row: 11/11;\r\n}\r\n.grid-container > .grid-item:nth-child(14) {\r\n  grid-column: 1/7;\r\n  grid-row: 12/12;\r\n}\r\n.grid-container > .grid-item:nth-child(15) {\r\n  grid-column: 1/6;\r\n  grid-row: 13/13;\r\n}\r\n.grid-container > .grid-item:nth-child(16) {\r\n  grid-column: 1/6;\r\n  grid-row: 14/14;\r\n}\r\n.grid-container > .grid-item:nth-child(17) {\r\n  grid-column: 1/6;\r\n  grid-row: 15/15;\r\n}\r\n.grid-container > .grid-item:nth-child(18) {\r\n  grid-column: 1/6;\r\n  grid-row: 16/16;\r\n}\r\n.grid-container > .grid-item:nth-child(19) {\r\n  grid-column: 1/6;\r\n  grid-row: 17/17;\r\n}\r\n", ""]);
+exports.push([module.i, ".anomalyPage {\r\n  border: 4px solid #ee9a2d;\r\n}\r\n.filterBoxes{\r\n  width: 100%;\r\n  position: relative;\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  gap: 10px;\r\n  justify-content: space-around;\r\n}\r\n\r\n.pdfContainer {\r\n  width: 97%;\r\n}\r\n.centerContent {\r\n  display: flex;\r\n  justify-content: center;\r\n  align-items: center;\r\n}\r\n.grid-container > .grid-item {\r\n  border: 1px solid #08153269;\r\n  font-size: 12px;\r\n}\r\n.grid-container > .grid-item:nth-child(2n + 6) {\r\n  background-color: #c7c7c7;\r\n}\r\n\r\n.grid-container {\r\n  display: grid;\r\n  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;\r\n  grid-template-rows: 40px 20px auto 20px auto 20px auto 20px auto 20px auto 20px auto 20px auto 20px auto;\r\n  grid-column-gap: -5px;\r\n  grid-row-gap: -5px;\r\n}\r\n.reporthead {\r\n  display: grid;\r\n  grid-template-columns: 1fr 5fr 1fr;\r\n  grid-template-rows: 1fr;\r\n}\r\n.reporthead span {\r\n  justify-self: center;\r\n  font-weight: 700;\r\n  align-self: center;\r\n}\r\n.reporthead img {\r\n  height: 30px;\r\n  align-self: center;\r\n}\r\n.smallHeads {\r\n  font-weight: 700;\r\n  text-align: center;\r\n}\r\n.MuiTableCell-root.MuiTableCell-root {\r\n  padding: 16px 11px;\r\n}\r\n.reportCont {\r\n  display: grid;\r\n  grid-template-columns: 4fr 2fr 2fr;\r\n  grid-template-rows: 1fr;\r\n  margin: 10px 5px;\r\n  margin-bottom: 0;\r\n}\r\n.bigVal {\r\n  grid-template-columns: 2fr 1fr 5fr;\r\n}\r\n.grid-item.reportAttached{\r\n  display: flex;\r\n  flex-wrap: wrap;\r\n  justify-content: center;\r\n  padding: 10px 0;\r\n}\r\n.grid-item.reportAttached img{ \r\n  min-height: 173px;\r\n  max-height: 250px;\r\n  max-width: 100%;\r\n  margin-right: 10px;\r\n}\r\n.grid-container > .grid-item:nth-child(1) {\r\n  grid-column: 1/7;\r\n  grid-row: 2/1;\r\n  font-size: 16px;\r\n}\r\n\r\n.grid-container > .grid-item:nth-child(2) {\r\n  grid-column: 1/4;\r\n  grid-row: 2/3;\r\n  background-color: #c7c7c7;\r\n}\r\n\r\n.grid-container > .grid-item:nth-child(3) {\r\n  grid-column: 4/7;\r\n  grid-row: 2/3;\r\n  background-color: #c7c7c7;\r\n}\r\n\r\n.grid-container > .grid-item:nth-child(4) {\r\n  grid-column: 1/4;\r\n  grid-row: 3/3;\r\n}\r\n\r\n.grid-container > .grid-item:nth-child(5) {\r\n  grid-column: 4/7;\r\n  grid-row: 3/6;\r\n}\r\n.grid-container > .grid-item:nth-child(6) {\r\n  grid-column: 1/4;\r\n  grid-row: 4/4;\r\n}\r\n.grid-container > .grid-item:nth-child(7) {\r\n  grid-column: 1/4;\r\n  grid-row: 5/6;\r\n}\r\n.grid-container > .grid-item:nth-child(8) {\r\n  grid-column: 1/7;\r\n  grid-row: 6/6;\r\n}\r\n.grid-container > .grid-item:nth-child(9) {\r\n  grid-column: 1/7;\r\n  grid-row: 7/7;\r\n}\r\n.grid-container > .grid-item:nth-child(10) {\r\n  grid-column: 1/7;\r\n  grid-row: 8/8;\r\n}\r\n.grid-container > .grid-item:nth-child(11) {\r\n  grid-column: 1/7;\r\n  grid-row: 9/9;\r\n}\r\n.grid-container > .grid-item:nth-child(12) {\r\n  grid-column: 1/7;\r\n  grid-row: 10/10;\r\n}\r\n.grid-container > .grid-item:nth-child(13) {\r\n  grid-column: 1/7;\r\n  grid-row: 11/11;\r\n}\r\n.grid-container > .grid-item:nth-child(14) {\r\n  grid-column: 1/7;\r\n  grid-row: 12/12;\r\n}\r\n.grid-container > .grid-item:nth-child(15) {\r\n  grid-column: 1/6;\r\n  grid-row: 13/13;\r\n}\r\n.grid-container > .grid-item:nth-child(16) {\r\n  grid-column: 1/6;\r\n  grid-row: 14/14;\r\n}\r\n.grid-container > .grid-item:nth-child(17) {\r\n  grid-column: 1/6;\r\n  grid-row: 15/15;\r\n}\r\n.grid-container > .grid-item:nth-child(18) {\r\n  grid-column: 1/6;\r\n  grid-row: 16/16;\r\n}\r\n.grid-container > .grid-item:nth-child(19) {\r\n  grid-column: 1/6;\r\n  grid-row: 17/17;\r\n}\r\n", ""]);
 // Exports
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ 1477:
+/***/ 1483:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -536,16 +536,16 @@ var react = __webpack_require__(0);
 var react_default = /*#__PURE__*/__webpack_require__.n(react);
 
 // EXTERNAL MODULE: ./src/_views/_aimViews/NewAnomalyView.js + 3 modules
-var NewAnomalyView = __webpack_require__(1131);
+var NewAnomalyView = __webpack_require__(1132);
 
 // EXTERNAL MODULE: ./src/_views/_aimViews/NewAnomaliesView.js + 1 modules
-var NewAnomaliesView = __webpack_require__(1132);
+var NewAnomaliesView = __webpack_require__(1133);
 
 // EXTERNAL MODULE: ./src/_views/_aimViews/AnomaliesView.js + 1 modules
-var AnomaliesView = __webpack_require__(1133);
+var AnomaliesView = __webpack_require__(1134);
 
 // EXTERNAL MODULE: ./node_modules/react-redux/es/index.js + 22 modules
-var es = __webpack_require__(11);
+var es = __webpack_require__(17);
 
 // EXTERNAL MODULE: ./src/common/customStyles.js
 var customStyles = __webpack_require__(1050);
@@ -554,105 +554,105 @@ var customStyles = __webpack_require__(1050);
 var clsx_m = __webpack_require__(3);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Box/Box.js + 16 modules
-var Box = __webpack_require__(1033);
+var Box = __webpack_require__(1037);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Container/Container.js
-var Container = __webpack_require__(1032);
+var Container = __webpack_require__(1036);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Grid/Grid.js
-var Grid = __webpack_require__(228);
+var Grid = __webpack_require__(16);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/styles/withStyles.js
 var withStyles = __webpack_require__(7);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Table/Table.js
-var Table = __webpack_require__(1471);
+var Table = __webpack_require__(1476);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/TableBody/TableBody.js
-var TableBody = __webpack_require__(1474);
+var TableBody = __webpack_require__(1479);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/TableCell/TableCell.js
-var TableCell = __webpack_require__(1469);
+var TableCell = __webpack_require__(1474);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/TableHead/TableHead.js
-var TableHead = __webpack_require__(1472);
+var TableHead = __webpack_require__(1477);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/TableRow/TableRow.js
-var TableRow = __webpack_require__(1473);
+var TableRow = __webpack_require__(1478);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Paper/Paper.js
-var Paper = __webpack_require__(156);
+var Paper = __webpack_require__(102);
 
 // EXTERNAL MODULE: ./node_modules/countries-List/dist/index.es5.min.js
-var index_es5_min = __webpack_require__(1069);
+var index_es5_min = __webpack_require__(1070);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/TableContainer/TableContainer.js
-var TableContainer = __webpack_require__(1470);
+var TableContainer = __webpack_require__(1475);
 
 // EXTERNAL MODULE: ./node_modules/react-moment/dist/index.js
-var dist = __webpack_require__(84);
+var dist = __webpack_require__(297);
 var dist_default = /*#__PURE__*/__webpack_require__.n(dist);
 
 // EXTERNAL MODULE: ./src/common/customButton.js
-var customButton = __webpack_require__(1072);
+var customButton = __webpack_require__(1073);
 
 // EXTERNAL MODULE: ./src/_services/index.js + 25 modules
-var _services = __webpack_require__(16);
+var _services = __webpack_require__(15);
 
 // EXTERNAL MODULE: ./node_modules/axios/index.js
 var axios = __webpack_require__(12);
 var axios_default = /*#__PURE__*/__webpack_require__.n(axios);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/icons/AttachFileOutlined.js
-var AttachFileOutlined = __webpack_require__(1078);
+var AttachFileOutlined = __webpack_require__(1079);
 var AttachFileOutlined_default = /*#__PURE__*/__webpack_require__.n(AttachFileOutlined);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/icons/ArrowDownward.js
-var ArrowDownward = __webpack_require__(1077);
+var ArrowDownward = __webpack_require__(1078);
 var ArrowDownward_default = /*#__PURE__*/__webpack_require__.n(ArrowDownward);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/icons/Search.js
-var Search = __webpack_require__(36);
+var Search = __webpack_require__(233);
 var Search_default = /*#__PURE__*/__webpack_require__.n(Search);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/InputBase/InputBase.js + 1 modules
-var InputBase = __webpack_require__(593);
+var InputBase = __webpack_require__(606);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/IconButton/IconButton.js
-var IconButton = __webpack_require__(986);
+var IconButton = __webpack_require__(231);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/icons/DeleteOutlined.js
-var DeleteOutlined = __webpack_require__(24);
+var DeleteOutlined = __webpack_require__(88);
 var DeleteOutlined_default = /*#__PURE__*/__webpack_require__.n(DeleteOutlined);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/icons/EditOutlined.js
-var EditOutlined = __webpack_require__(26);
+var EditOutlined = __webpack_require__(123);
 var EditOutlined_default = /*#__PURE__*/__webpack_require__.n(EditOutlined);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/icons/PostAddOutlined.js
-var PostAddOutlined = __webpack_require__(1193);
+var PostAddOutlined = __webpack_require__(1194);
 var PostAddOutlined_default = /*#__PURE__*/__webpack_require__.n(PostAddOutlined);
 
 // EXTERNAL MODULE: ./src/_utilities/CommonStyles.js
-var CommonStyles = __webpack_require__(15);
+var CommonStyles = __webpack_require__(53);
 
 // EXTERNAL MODULE: ./src/_actions/anomalyActions.js
-var anomalyActions = __webpack_require__(25);
+var anomalyActions = __webpack_require__(1051);
 
 // EXTERNAL MODULE: ./src/_components/AlertDialog.js
-var AlertDialog = __webpack_require__(31);
+var AlertDialog = __webpack_require__(155);
 
 // EXTERNAL MODULE: ./node_modules/react-router-dom/esm/react-router-dom.js
-var react_router_dom = __webpack_require__(23);
+var react_router_dom = __webpack_require__(36);
 
 // EXTERNAL MODULE: ./src/utility/filesUtility.js
-var filesUtility = __webpack_require__(1068);
+var filesUtility = __webpack_require__(1069);
 
 // EXTERNAL MODULE: ./src/_components/aimComponents/DialogPrompt.js
-var DialogPrompt = __webpack_require__(1096);
+var DialogPrompt = __webpack_require__(1097);
 
 // EXTERNAL MODULE: ./src/_components/aimComponents/AnomalyRecordView.js
-var AnomalyRecordView = __webpack_require__(1097);
+var AnomalyRecordView = __webpack_require__(1098);
 
 // CONCATENATED MODULE: ./src/_components/aimComponents/UserAnomaliesTable.js
 function _typeof(obj) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, _typeof(obj); }
@@ -1113,7 +1113,7 @@ var UserAnomaliesTable_UserAnomaliesTable = function UserAnomaliesTable(props) {
 var UserAnomaliesTable_mapDispatchToProps = function mapDispatchToProps(dispatch) {
   return {
     deleteAnomaly: function deleteAnomaly(data) {
-      dispatch(Object(anomalyActions["l" /* deleteAnomaly */])(data));
+      dispatch(Object(anomalyActions["h" /* deleteAnomaly */])(data));
     }
   };
 };
@@ -1131,10 +1131,10 @@ var mapStateToProps = function mapStateToProps(state) {
 };
 /* harmony default export */ var aimComponents_UserAnomaliesTable = (Object(es["b" /* connect */])(mapStateToProps, UserAnomaliesTable_mapDispatchToProps)(UserAnomaliesTable_UserAnomaliesTable));
 // EXTERNAL MODULE: ./src/_components/aimComponents/ViewTitle.js
-var ViewTitle = __webpack_require__(1052);
+var ViewTitle = __webpack_require__(1053);
 
 // EXTERNAL MODULE: ./src/common/sideMenuComponents.js
-var sideMenuComponents = __webpack_require__(157);
+var sideMenuComponents = __webpack_require__(180);
 
 // CONCATENATED MODULE: ./src/_views/_aimViews/UserAnomaliesView.js
 
@@ -1181,22 +1181,22 @@ var UserAnomaliesView_mapStateToProps = function mapStateToProps(state) {
 };
 /* harmony default export */ var _aimViews_UserAnomaliesView = (Object(es["b" /* connect */])(UserAnomaliesView_mapStateToProps)(UserAnomaliesView_UserAnomaliesView));
 // EXTERNAL MODULE: ./src/_views/_aimViews/AnomalyStatisticsView.js + 1 modules
-var AnomalyStatisticsView = __webpack_require__(1134);
+var AnomalyStatisticsView = __webpack_require__(1135);
 
 // EXTERNAL MODULE: ./src/_views/_aimViews/AnalysedAnomaliesView.js
-var AnalysedAnomaliesView = __webpack_require__(1108);
+var AnalysedAnomaliesView = __webpack_require__(1109);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/FormControlLabel/FormControlLabel.js
-var FormControlLabel = __webpack_require__(1027);
+var FormControlLabel = __webpack_require__(357);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Button/Button.js
-var Button = __webpack_require__(299);
+var Button = __webpack_require__(101);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/RadioGroup/RadioGroup.js + 1 modules
-var RadioGroup = __webpack_require__(1480);
+var RadioGroup = __webpack_require__(1486);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Radio/Radio.js + 4 modules
-var Radio = __webpack_require__(1035);
+var Radio = __webpack_require__(1038);
 
 // CONCATENATED MODULE: ./src/_components/aimComponents/ApprovedAnomaliesTable.js
 function ApprovedAnomaliesTable_typeof(obj) { "@babel/helpers - typeof"; return ApprovedAnomaliesTable_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, ApprovedAnomaliesTable_typeof(obj); }
@@ -1781,7 +1781,7 @@ var ApprovedAnomaliesTable_ApprovedAnomaliesTable = function ApprovedAnomaliesTa
 var ApprovedAnomaliesTable_mapDispatchToProps = function mapDispatchToProps(dispatch) {
   return {
     saveAnomalyStatus: function saveAnomalyStatus(data) {
-      dispatch(Object(anomalyActions["w" /* saveAnomalyStatus */])(data));
+      dispatch(Object(anomalyActions["o" /* saveAnomalyStatus */])(data));
     }
   };
 };
@@ -1843,40 +1843,40 @@ var ApprovedAnomaliesView_mapStateToProps = function mapStateToProps(state) {
 };
 /* harmony default export */ var _aimViews_ApprovedAnomaliesView = (Object(es["b" /* connect */])(ApprovedAnomaliesView_mapStateToProps)(ApprovedAnomaliesView_ApprovedAnomaliesView));
 // EXTERNAL MODULE: ./src/_views/_aimViews/RiskMatrixView.js + 1 modules
-var RiskMatrixView = __webpack_require__(1135);
+var RiskMatrixView = __webpack_require__(1136);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Typography/Typography.js
-var Typography = __webpack_require__(99);
+var Typography = __webpack_require__(27);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Checkbox/Checkbox.js + 3 modules
-var Checkbox = __webpack_require__(1036);
+var Checkbox = __webpack_require__(361);
 
 // EXTERNAL MODULE: ./node_modules/uuid/dist/esm-browser/v4.js + 2 modules
-var v4 = __webpack_require__(1037);
+var v4 = __webpack_require__(604);
 
 // EXTERNAL MODULE: ./node_modules/react-spreadsheet/dist/SpreadsheetStateProvider.js + 21 modules
-var SpreadsheetStateProvider = __webpack_require__(1458);
+var SpreadsheetStateProvider = __webpack_require__(1461);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Select/Select.js + 6 modules
-var Select = __webpack_require__(993);
+var Select = __webpack_require__(104);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/MenuItem/MenuItem.js
-var MenuItem = __webpack_require__(1468);
+var MenuItem = __webpack_require__(1473);
 
 // EXTERNAL MODULE: ./node_modules/react-promise-tracker/lib/index.js
-var lib = __webpack_require__(57);
+var lib = __webpack_require__(46);
 
 // EXTERNAL MODULE: ./node_modules/notistack/build/index.js
-var build = __webpack_require__(22);
+var build = __webpack_require__(76);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Stepper/Stepper.js + 1 modules
-var Stepper = __webpack_require__(1481);
+var Stepper = __webpack_require__(1487);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Step/Step.js
-var Step = __webpack_require__(1475);
+var Step = __webpack_require__(1480);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/StepLabel/StepLabel.js + 3 modules
-var StepLabel = __webpack_require__(1478);
+var StepLabel = __webpack_require__(1484);
 
 // CONCATENATED MODULE: ./src/_components/aimComponents/ExcelDataImport.js
 function ExcelDataImport_typeof(obj) { "@babel/helpers - typeof"; return ExcelDataImport_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, ExcelDataImport_typeof(obj); }
@@ -2502,32 +2502,36 @@ var ExcelDataImportView_mapStateToProps = function mapStateToProps(state) {
 };
 /* harmony default export */ var _aimViews_ExcelDataImportView = (Object(es["b" /* connect */])(ExcelDataImportView_mapStateToProps)(ExcelDataImportView_ExcelDataImportView));
 // EXTERNAL MODULE: ./node_modules/jspdf/dist/jspdf.es.min.js
-var jspdf_es_min = __webpack_require__(1202);
+var jspdf_es_min = __webpack_require__(1203);
 
 // EXTERNAL MODULE: ./node_modules/html2canvas/dist/html2canvas.js
-var html2canvas = __webpack_require__(1140);
+var html2canvas = __webpack_require__(1141);
 var html2canvas_default = /*#__PURE__*/__webpack_require__.n(html2canvas);
 
 // EXTERNAL MODULE: ./src/_images/grasp_logo 1.png
-var grasp_logo_1 = __webpack_require__(1203);
+var grasp_logo_1 = __webpack_require__(1204);
 var grasp_logo_1_default = /*#__PURE__*/__webpack_require__.n(grasp_logo_1);
 
 // EXTERNAL MODULE: ./src/_components/aimComponents/risk-matrix/RiskMatrix.js
-var RiskMatrix = __webpack_require__(567);
+var RiskMatrix = __webpack_require__(576);
 
 // EXTERNAL MODULE: ./src/_components/aimComponents/AnomalyDashboardView.js
-var AnomalyDashboardView = __webpack_require__(424);
+var AnomalyDashboardView = __webpack_require__(433);
 
 // EXTERNAL MODULE: ./src/_views/_aimViews/AnomaliesReport.css
-var AnomaliesReport = __webpack_require__(1204);
+var AnomaliesReport = __webpack_require__(1205);
 
 // EXTERNAL MODULE: ./src/_components/aimComponents/AnalysedAnomaliesTable.js
-var AnalysedAnomaliesTable = __webpack_require__(1137);
+var AnalysedAnomaliesTable = __webpack_require__(1138);
 
 // EXTERNAL MODULE: ./src/constants/URLs/urls.js
 var urls = __webpack_require__(10);
 
 // CONCATENATED MODULE: ./src/_views/_aimViews/AnomaliesReportView.js
+function AnomaliesReportView_typeof(obj) { "@babel/helpers - typeof"; return AnomaliesReportView_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, AnomaliesReportView_typeof(obj); }
+function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return exports; }; var exports = {}, Op = Object.prototype, hasOwn = Op.hasOwnProperty, defineProperty = Object.defineProperty || function (obj, key, desc) { obj[key] = desc.value; }, $Symbol = "function" == typeof Symbol ? Symbol : {}, iteratorSymbol = $Symbol.iterator || "@@iterator", asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator", toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag"; function define(obj, key, value) { return Object.defineProperty(obj, key, { value: value, enumerable: !0, configurable: !0, writable: !0 }), obj[key]; } try { define({}, ""); } catch (err) { define = function define(obj, key, value) { return obj[key] = value; }; } function wrap(innerFn, outerFn, self, tryLocsList) { var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator, generator = Object.create(protoGenerator.prototype), context = new Context(tryLocsList || []); return defineProperty(generator, "_invoke", { value: makeInvokeMethod(innerFn, self, context) }), generator; } function tryCatch(fn, obj, arg) { try { return { type: "normal", arg: fn.call(obj, arg) }; } catch (err) { return { type: "throw", arg: err }; } } exports.wrap = wrap; var ContinueSentinel = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var IteratorPrototype = {}; define(IteratorPrototype, iteratorSymbol, function () { return this; }); var getProto = Object.getPrototypeOf, NativeIteratorPrototype = getProto && getProto(getProto(values([]))); NativeIteratorPrototype && NativeIteratorPrototype !== Op && hasOwn.call(NativeIteratorPrototype, iteratorSymbol) && (IteratorPrototype = NativeIteratorPrototype); var Gp = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(IteratorPrototype); function defineIteratorMethods(prototype) { ["next", "throw", "return"].forEach(function (method) { define(prototype, method, function (arg) { return this._invoke(method, arg); }); }); } function AsyncIterator(generator, PromiseImpl) { function invoke(method, arg, resolve, reject) { var record = tryCatch(generator[method], generator, arg); if ("throw" !== record.type) { var result = record.arg, value = result.value; return value && "object" == AnomaliesReportView_typeof(value) && hasOwn.call(value, "__await") ? PromiseImpl.resolve(value.__await).then(function (value) { invoke("next", value, resolve, reject); }, function (err) { invoke("throw", err, resolve, reject); }) : PromiseImpl.resolve(value).then(function (unwrapped) { result.value = unwrapped, resolve(result); }, function (error) { return invoke("throw", error, resolve, reject); }); } reject(record.arg); } var previousPromise; defineProperty(this, "_invoke", { value: function value(method, arg) { function callInvokeWithMethodAndArg() { return new PromiseImpl(function (resolve, reject) { invoke(method, arg, resolve, reject); }); } return previousPromise = previousPromise ? previousPromise.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(innerFn, self, context) { var state = "suspendedStart"; return function (method, arg) { if ("executing" === state) throw new Error("Generator is already running"); if ("completed" === state) { if ("throw" === method) throw arg; return doneResult(); } for (context.method = method, context.arg = arg;;) { var delegate = context.delegate; if (delegate) { var delegateResult = maybeInvokeDelegate(delegate, context); if (delegateResult) { if (delegateResult === ContinueSentinel) continue; return delegateResult; } } if ("next" === context.method) context.sent = context._sent = context.arg;else if ("throw" === context.method) { if ("suspendedStart" === state) throw state = "completed", context.arg; context.dispatchException(context.arg); } else "return" === context.method && context.abrupt("return", context.arg); state = "executing"; var record = tryCatch(innerFn, self, context); if ("normal" === record.type) { if (state = context.done ? "completed" : "suspendedYield", record.arg === ContinueSentinel) continue; return { value: record.arg, done: context.done }; } "throw" === record.type && (state = "completed", context.method = "throw", context.arg = record.arg); } }; } function maybeInvokeDelegate(delegate, context) { var methodName = context.method, method = delegate.iterator[methodName]; if (undefined === method) return context.delegate = null, "throw" === methodName && delegate.iterator.return && (context.method = "return", context.arg = undefined, maybeInvokeDelegate(delegate, context), "throw" === context.method) || "return" !== methodName && (context.method = "throw", context.arg = new TypeError("The iterator does not provide a '" + methodName + "' method")), ContinueSentinel; var record = tryCatch(method, delegate.iterator, context.arg); if ("throw" === record.type) return context.method = "throw", context.arg = record.arg, context.delegate = null, ContinueSentinel; var info = record.arg; return info ? info.done ? (context[delegate.resultName] = info.value, context.next = delegate.nextLoc, "return" !== context.method && (context.method = "next", context.arg = undefined), context.delegate = null, ContinueSentinel) : info : (context.method = "throw", context.arg = new TypeError("iterator result is not an object"), context.delegate = null, ContinueSentinel); } function pushTryEntry(locs) { var entry = { tryLoc: locs[0] }; 1 in locs && (entry.catchLoc = locs[1]), 2 in locs && (entry.finallyLoc = locs[2], entry.afterLoc = locs[3]), this.tryEntries.push(entry); } function resetTryEntry(entry) { var record = entry.completion || {}; record.type = "normal", delete record.arg, entry.completion = record; } function Context(tryLocsList) { this.tryEntries = [{ tryLoc: "root" }], tryLocsList.forEach(pushTryEntry, this), this.reset(!0); } function values(iterable) { if (iterable) { var iteratorMethod = iterable[iteratorSymbol]; if (iteratorMethod) return iteratorMethod.call(iterable); if ("function" == typeof iterable.next) return iterable; if (!isNaN(iterable.length)) { var i = -1, next = function next() { for (; ++i < iterable.length;) { if (hasOwn.call(iterable, i)) return next.value = iterable[i], next.done = !1, next; } return next.value = undefined, next.done = !0, next; }; return next.next = next; } } return { next: doneResult }; } function doneResult() { return { value: undefined, done: !0 }; } return GeneratorFunction.prototype = GeneratorFunctionPrototype, defineProperty(Gp, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), defineProperty(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, toStringTagSymbol, "GeneratorFunction"), exports.isGeneratorFunction = function (genFun) { var ctor = "function" == typeof genFun && genFun.constructor; return !!ctor && (ctor === GeneratorFunction || "GeneratorFunction" === (ctor.displayName || ctor.name)); }, exports.mark = function (genFun) { return Object.setPrototypeOf ? Object.setPrototypeOf(genFun, GeneratorFunctionPrototype) : (genFun.__proto__ = GeneratorFunctionPrototype, define(genFun, toStringTagSymbol, "GeneratorFunction")), genFun.prototype = Object.create(Gp), genFun; }, exports.awrap = function (arg) { return { __await: arg }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, asyncIteratorSymbol, function () { return this; }), exports.AsyncIterator = AsyncIterator, exports.async = function (innerFn, outerFn, self, tryLocsList, PromiseImpl) { void 0 === PromiseImpl && (PromiseImpl = Promise); var iter = new AsyncIterator(wrap(innerFn, outerFn, self, tryLocsList), PromiseImpl); return exports.isGeneratorFunction(outerFn) ? iter : iter.next().then(function (result) { return result.done ? result.value : iter.next(); }); }, defineIteratorMethods(Gp), define(Gp, toStringTagSymbol, "Generator"), define(Gp, iteratorSymbol, function () { return this; }), define(Gp, "toString", function () { return "[object Generator]"; }), exports.keys = function (val) { var object = Object(val), keys = []; for (var key in object) { keys.push(key); } return keys.reverse(), function next() { for (; keys.length;) { var key = keys.pop(); if (key in object) return next.value = key, next.done = !1, next; } return next.done = !0, next; }; }, exports.values = values, Context.prototype = { constructor: Context, reset: function reset(skipTempReset) { if (this.prev = 0, this.next = 0, this.sent = this._sent = undefined, this.done = !1, this.delegate = null, this.method = "next", this.arg = undefined, this.tryEntries.forEach(resetTryEntry), !skipTempReset) for (var name in this) { "t" === name.charAt(0) && hasOwn.call(this, name) && !isNaN(+name.slice(1)) && (this[name] = undefined); } }, stop: function stop() { this.done = !0; var rootRecord = this.tryEntries[0].completion; if ("throw" === rootRecord.type) throw rootRecord.arg; return this.rval; }, dispatchException: function dispatchException(exception) { if (this.done) throw exception; var context = this; function handle(loc, caught) { return record.type = "throw", record.arg = exception, context.next = loc, caught && (context.method = "next", context.arg = undefined), !!caught; } for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i], record = entry.completion; if ("root" === entry.tryLoc) return handle("end"); if (entry.tryLoc <= this.prev) { var hasCatch = hasOwn.call(entry, "catchLoc"), hasFinally = hasOwn.call(entry, "finallyLoc"); if (hasCatch && hasFinally) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } else if (hasCatch) { if (this.prev < entry.catchLoc) return handle(entry.catchLoc, !0); } else { if (!hasFinally) throw new Error("try statement without catch or finally"); if (this.prev < entry.finallyLoc) return handle(entry.finallyLoc); } } } }, abrupt: function abrupt(type, arg) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc <= this.prev && hasOwn.call(entry, "finallyLoc") && this.prev < entry.finallyLoc) { var finallyEntry = entry; break; } } finallyEntry && ("break" === type || "continue" === type) && finallyEntry.tryLoc <= arg && arg <= finallyEntry.finallyLoc && (finallyEntry = null); var record = finallyEntry ? finallyEntry.completion : {}; return record.type = type, record.arg = arg, finallyEntry ? (this.method = "next", this.next = finallyEntry.finallyLoc, ContinueSentinel) : this.complete(record); }, complete: function complete(record, afterLoc) { if ("throw" === record.type) throw record.arg; return "break" === record.type || "continue" === record.type ? this.next = record.arg : "return" === record.type ? (this.rval = this.arg = record.arg, this.method = "return", this.next = "end") : "normal" === record.type && afterLoc && (this.next = afterLoc), ContinueSentinel; }, finish: function finish(finallyLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.finallyLoc === finallyLoc) return this.complete(entry.completion, entry.afterLoc), resetTryEntry(entry), ContinueSentinel; } }, catch: function _catch(tryLoc) { for (var i = this.tryEntries.length - 1; i >= 0; --i) { var entry = this.tryEntries[i]; if (entry.tryLoc === tryLoc) { var record = entry.completion; if ("throw" === record.type) { var thrown = record.arg; resetTryEntry(entry); } return thrown; } } throw new Error("illegal catch attempt"); }, delegateYield: function delegateYield(iterable, resultName, nextLoc) { return this.delegate = { iterator: values(iterable), resultName: resultName, nextLoc: nextLoc }, "next" === this.method && (this.arg = undefined), ContinueSentinel; } }, exports; }
+function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try { var info = gen[key](arg); var value = info.value; } catch (error) { reject(error); return; } if (info.done) { resolve(value); } else { Promise.resolve(value).then(_next, _throw); } }
+function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 function AnomaliesReportView_slicedToArray(arr, i) { return AnomaliesReportView_arrayWithHoles(arr) || AnomaliesReportView_iterableToArrayLimit(arr, i) || AnomaliesReportView_unsupportedIterableToArray(arr, i) || AnomaliesReportView_nonIterableRest(); }
 function AnomaliesReportView_nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
 function AnomaliesReportView_unsupportedIterableToArray(o, minLen) { if (!o) return; if (typeof o === "string") return AnomaliesReportView_arrayLikeToArray(o, minLen); var n = Object.prototype.toString.call(o).slice(8, -1); if (n === "Object" && o.constructor) n = o.constructor.name; if (n === "Map" || n === "Set") return Array.from(o); if (n === "Arguments" || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(n)) return AnomaliesReportView_arrayLikeToArray(o, minLen); }
@@ -2559,7 +2563,7 @@ var AnomaliesReportView_AnomaliesReportView = function AnomaliesReportView(props
     _useState4 = AnomaliesReportView_slicedToArray(_useState3, 2),
     users = _useState4[0],
     setUsers = _useState4[1];
-  var _useState5 = Object(react["useState"])(""),
+  var _useState5 = Object(react["useState"])("open"),
     _useState6 = AnomaliesReportView_slicedToArray(_useState5, 2),
     filterConstraint = _useState6[0],
     setFilterConstraint = _useState6[1];
@@ -2687,42 +2691,58 @@ var AnomaliesReportView_AnomaliesReportView = function AnomaliesReportView(props
       }, "Open");
     }
   };
-  var print = function print() {
-    var imgWidth = 210;
-    var pageHeight = 295;
-    var pages = Array.from(document.getElementsByClassName("divToPrint"));
-    console.log(pages);
-    var pdf = new jspdf_es_min["a" /* default */]("p", "mm", "a4", true);
-    var promises = pages.map(function (page) {
-      return html2canvas_default()(page, {
-        useCORS: true,
-        quality: 2,
-        scale: 2
-      });
-    });
-    Promise.all(promises).then(function (canvases) {
-      console.log(canvases);
-      canvases.forEach(function (canvas, i) {
-        var imgHeight = canvas.height * imgWidth / canvas.width;
-        var heightLeft = imgHeight;
-        var imgData = canvas.toDataURL("image/png");
-        if (i > 0) pdf.addPage();
-        var position = 0;
-        pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
-        heightLeft -= pageHeight;
-        //pdf.addImage(imgData, 'JPEG', 0, 0);
-        // pdf.output('dataurlnewwindow');
+  var print = /*#__PURE__*/function () {
+    var _ref = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee() {
+      var imgWidth, pageHeight, pages, pdf, promises;
+      return _regeneratorRuntime().wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              imgWidth = 210;
+              pageHeight = 295;
+              pages = Array.from(document.getElementsByClassName("divToPrint"));
+              console.log(pages);
+              pdf = new jspdf_es_min["a" /* default */]("p", "mm", "a4", true);
+              promises = pages.map(function (page) {
+                return html2canvas_default()(page, {
+                  useCORS: true,
+                  quality: 2,
+                  scale: 2
+                });
+              });
+              Promise.all(promises).then(function (canvases) {
+                console.log(canvases);
+                canvases.forEach(function (canvas, i) {
+                  var imgHeight = canvas.height * imgWidth / canvas.width;
+                  var heightLeft = imgHeight;
+                  var imgData = canvas.toDataURL("image/png");
+                  if (i > 0) pdf.addPage();
+                  var position = 0;
+                  pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
+                  heightLeft -= pageHeight;
+                  //pdf.addImage(imgData, 'JPEG', 0, 0);
+                  // pdf.output('dataurlnewwindow');
 
-        if (i > 0) while (heightLeft >= 0) {
-          position = heightLeft - imgHeight;
-          pdf.addPage();
-          pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
-          heightLeft -= pageHeight;
+                  if (i > 0) while (heightLeft >= 0) {
+                    position = heightLeft - imgHeight;
+                    pdf.addPage();
+                    pdf.addImage(imgData, "PNG", 0, position, imgWidth, imgHeight);
+                    heightLeft -= pageHeight;
+                  }
+                });
+                pdf.save("report.pdf");
+              });
+            case 7:
+            case "end":
+              return _context.stop();
+          }
         }
-      });
-      pdf.save("download.pdf");
-    });
-  };
+      }, _callee);
+    }));
+    return function print() {
+      return _ref.apply(this, arguments);
+    };
+  }();
   return react_default.a.createElement("main", {
     className: "reportContainer"
   }, react_default.a.createElement(ViewTitle["a" /* default */], null, "Report"), react_default.a.createElement("div", {
@@ -2732,11 +2752,29 @@ var AnomaliesReportView_AnomaliesReportView = function AnomaliesReportView(props
   }, react_default.a.createElement(Button["a" /* default */], {
     size: "medium",
     color: "primary",
-    onClick: function onClick() {
-      return print();
-    },
+    onClick: /*#__PURE__*/_asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2() {
+      return _regeneratorRuntime().wrap(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              _context2.next = 2;
+              return print();
+            case 2:
+              return _context2.abrupt("return", _context2.sent);
+            case 3:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, _callee2);
+    })),
     variant: "outlined"
-  }, "Print")), react_default.a.createElement(ViewTitle["a" /* default */], null, "Filter"), react_default.a.createElement("div", {
+  }, "Print"), react_default.a.createElement("span", {
+    style: {
+      color: "red",
+      marginLeft: "10px"
+    }
+  }, "Print only on desktop view")), react_default.a.createElement(ViewTitle["a" /* default */], null, "Filter"), react_default.a.createElement("div", {
     className: "filterBoxes"
   }, react_default.a.createElement("span", null, "Open", react_default.a.createElement(Checkbox["a" /* default */], {
     checked: filterConstraint === "open",
@@ -3127,11 +3165,11 @@ function AnalysisTable(anom, props) {
     }
   }, anom.isReviewed ? anom.isApproved ? "Approved" : "Pending Approval" : "Pending Review")))));
 }
-function ReportContent(_ref) {
-  var name = _ref.name,
-    value = _ref.value,
-    _ref$className = _ref.className,
-    className = _ref$className === void 0 ? "" : _ref$className;
+function ReportContent(_ref3) {
+  var name = _ref3.name,
+    value = _ref3.value,
+    _ref3$className = _ref3.className,
+    className = _ref3$className === void 0 ? "" : _ref3$className;
   return react_default.a.createElement("div", {
     className: "reportCont ".concat(className)
   }, react_default.a.createElement("span", null, name), react_default.a.createElement("span", null, ":"), react_default.a.createElement("span", null, value ? value : "--"));
@@ -3174,26 +3212,26 @@ function ReportContent(_ref) {
         </Grid> */
 }
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/CssBaseline/CssBaseline.js
-var CssBaseline = __webpack_require__(1030);
+var CssBaseline = __webpack_require__(1034);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Drawer/Drawer.js
-var Drawer = __webpack_require__(1031);
+var Drawer = __webpack_require__(1035);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/esm/Hidden/Hidden.js + 4 modules
-var Hidden = __webpack_require__(994);
+var Hidden = __webpack_require__(603);
 
 // EXTERNAL MODULE: ./node_modules/@material-ui/core/styles/useTheme.js
-var useTheme = __webpack_require__(1109);
+var useTheme = __webpack_require__(1110);
 var useTheme_default = /*#__PURE__*/__webpack_require__.n(useTheme);
 
 // EXTERNAL MODULE: ./node_modules/react-router/esm/react-router.js + 1 modules
-var react_router = __webpack_require__(170);
+var react_router = __webpack_require__(146);
 
 // EXTERNAL MODULE: ./node_modules/node-libs-browser/node_modules/util/util.js
-var util = __webpack_require__(41);
+var util = __webpack_require__(74);
 
 // EXTERNAL MODULE: ./src/_components/CustomAppBar.js + 1 modules
-var CustomAppBar = __webpack_require__(139);
+var CustomAppBar = __webpack_require__(137);
 
 // CONCATENATED MODULE: ./src/_modules/AnomaliesModule.js
 function AnomaliesModule_typeof(obj) { "@babel/helpers - typeof"; return AnomaliesModule_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (obj) { return typeof obj; } : function (obj) { return obj && "function" == typeof Symbol && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }, AnomaliesModule_typeof(obj); }

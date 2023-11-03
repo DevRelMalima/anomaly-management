@@ -32,12 +32,8 @@ import PlatformSetupView from '@/_views/_setup/aim/PlatformSetupView'
 import AnomalyClassSetupView from '@/_views/_setup/aim/AnomalyClassSetupView'
 import AnomalyActionSetupView from '@/_views/_setup/aim/AnomalyActionSetupView'
 import AnomalySystemSetupView from '@/_views/_setup/aim/AnomalySystemSetupView'
-import PrioritySetupView from '@/_views/_setup/aim/PrioritySetupView'
-import LoFSetupView from '@/_views/_setup/aim/LoFSetupView'
-import SoFSetupView from '@/_views/_setup/aim/SoFSetupView'
 import AnomalyPermissionSetupView from '@/_views/_setup/aim/AnomalyPermissionSetupView'
 import AnomalyOptionsSetupView from '@/_views/_setup/aim/AnomalyOptionsSetupView'
-import CoFSetupView from '@/_views/_setup/aim/CoFSetupView'
 
 import Button from '@material-ui/core/Button';
 import Avatar from '@material-ui/core/Avatar';
